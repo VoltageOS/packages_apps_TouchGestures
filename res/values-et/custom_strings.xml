@@ -3,7 +3,6 @@
     <string name="touchscreen_gesture_settings_title">Puuteekraani žestid</string>
     <string name="touchscreen_gesture_settings_summary">Soorita erinevaid žeste puuteekraanil kiirtoiminguteks</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Kompimistagasiside</string>
-    <string name="touchscreen_gestures_haptic_feedback_summary">Vibreeri puuteekraani žesti tuvastamisel</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">Viipa kahe sõrmega alla</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_title">Viipa ühe sõrmega üles</string>
     <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Viipa kodunupust üles</string>
