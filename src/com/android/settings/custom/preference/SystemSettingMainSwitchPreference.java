@@ -21,24 +21,24 @@ package com.android.settings.custom.preference;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import androidx.preference.SwitchPreference;
+import com.android.settingslib.widget.MainSwitchPreference;
 import androidx.preference.PreferenceDataStore;
 
 import android.provider.Settings;
 
-public class SystemSettingSwitchPreference extends SwitchPreference {
+public class SystemSettingMainSwitchPreference extends MainSwitchPreference {
 
-    public SystemSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SystemSettingMainSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setPreferenceDataStore(new DataStore());
     }
 
-    public SystemSettingSwitchPreference(Context context, AttributeSet attrs) {
+    public SystemSettingMainSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         setPreferenceDataStore(new DataStore());
     }
 
-    public SystemSettingSwitchPreference(Context context) {
+    public SystemSettingMainSwitchPreference(Context context) {
         super(context);
         setPreferenceDataStore(new DataStore());
     }
@@ -78,11 +78,11 @@ public class SystemSettingSwitchPreference extends SwitchPreference {
     private class DataStore extends PreferenceDataStore {
         @Override
         public void putBoolean(String key, boolean value) {
-            SystemSettingSwitchPreference.this.putBoolean(key, value);
+            SystemSettingMainSwitchPreference.this.putBoolean(key, value);
         }
          @Override
         public boolean getBoolean(String key, boolean defaultValue) {
-            return SystemSettingSwitchPreference.this.getBoolean(key, defaultValue);
+            return SystemSettingMainSwitchPreference.this.getBoolean(key, defaultValue);
         }
     }
 }
