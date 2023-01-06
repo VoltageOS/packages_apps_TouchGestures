@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="touchscreen_gesture_settings_title">Սենսորային էկրանի ժեստերը</string>
+    <string name="touchscreen_gesture_settings_summary">Կատարեք տարբեր սենսորային ժեստեր արագ գործողությունների համար</string>
+    <string name="touchscreen_gestures_haptic_feedback_title">Արագ արձագանք</string>
+    <string name="touchscreen_gestures_haptic_feedback_summary">Թրթռալ, երբ հայտնաբերվում է սենսորային էկրանի ժեստ</string>
+    <string name="touchscreen_gesture_two_finger_down_swipe_title">Երկու մատը սահեցնել ներքև</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_title">Մեկ մատը սահեցնել վերև</string>
+    <string name="touchscreen_gesture_one_finger_up_swipe_home_title">Գլխավոր կոճակից սահեցնել վերև</string>
+    <string name="touchscreen_gesture_one_finger_down_swipe_title">Մեկ մատը սահեցնել ներքև</string>
+    <string name="touchscreen_gesture_one_finger_left_swipe_title">Մեկ մատը սահեցնել ձախ</string>
+    <string name="touchscreen_gesture_one_finger_right_swipe_title">Մեկ մատը սահեցնել աջ</string>
     <string name="touchscreen_gesture_up_arrow_title">Նկարիր \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Նկարիր \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Նկարիր \"&lt;\"</string>
@@ -9,7 +19,29 @@
     <string name="touchscreen_gesture_letter_o_title">Նկարիր \"O\" տառը</string>
     <string name="touchscreen_gesture_letter_m_title">Նկարիր \"M\" տառը</string>
     <string name="touchscreen_gesture_letter_s_title">Նկարիր \"S\" տառը</string>
+    <string name="touchscreen_gesture_letter_v_title">Նկարել \"V\" տառը</string>
+    <string name="touchscreen_gesture_letter_w_title">Նկարել \"W\" տառը</string>
+    <string name="touchscreen_gesture_letter_z_title">Նկարել \"Z\" տառը</string>
     <string name="touchscreen_gesture_single_tap_title">Մեկ հպում</string>
     <string name="touchscreen_gesture_double_tap_title">Կրկնակի հպում</string>
+    <string name="touchscreen_gesture_swipe_up_stylus_title">Գրիչով սահեցնել վերև</string>
+    <string name="touchscreen_gesture_swipe_down_stylus_title">Գրիչով սահեցնել ներքև</string>
+    <string name="touchscreen_gesture_swipe_left_stylus_title">Գրիչով սահեցնել ձախ</string>
+    <string name="touchscreen_gesture_swipe_right_stylus_title">Գրիչով սահեցնել աջ</string>
+    <string name="touchscreen_gesture_long_press_stylus_title">Գրիչով երկար սեղմել</string>
+    <string name="touchscreen_gesture_action_dialog_title">Ժեստերի գործողությունը</string>
+    <string name="touchscreen_gesture_action_do_nothing">Ոչինչ չանել</string>
+    <string name="touchscreen_gesture_action_flashlight">Միացնել լապտերը</string>
+    <string name="touchscreen_gesture_action_camera">Բացել տեսախցիկը</string>
+    <string name="touchscreen_gesture_action_browser">Բացել դիտարկիչը</string>
+    <string name="touchscreen_gesture_action_dialer">Բացել զանգերը</string>
+    <string name="touchscreen_gesture_action_email">Ցուցադրել ձեր էլ․փոստերը</string>
+    <string name="touchscreen_gesture_action_messages">Ցուցադրել ձեր հաղորդագրությունները</string>
+    <string name="touchscreen_gesture_action_play_pause_music">Նվագ․/դադարեցնել երաժշտությունը</string>
+    <string name="touchscreen_gesture_action_previous_track">Նվագարկել նախորդ երգը</string>
+    <string name="touchscreen_gesture_action_next_track">Նվագարկել հաջորդ երգը</string>
+    <string name="touchscreen_gesture_action_volume_down">Իջեցնել մեդիայի ձայնը</string>
+    <string name="touchscreen_gesture_action_volume_up">Բարձրացնել մեդիայի ձայնը</string>
+    <string name="touchscreen_gesture_action_ambient_display">Ցուցադրել Ambient Display-ը</string>
     <string name="touchscreen_gesture_action_wake_device">Դուրս գալ քնի ռեժիմից</string>
 </resources>
