@@ -38,8 +38,8 @@
     <string name="touchscreen_gesture_action_email">查看您的電子郵件</string>
     <string name="touchscreen_gesture_action_messages">查看您的訊息</string>
     <string name="touchscreen_gesture_action_play_pause_music">播放/暫停音樂</string>
-    <string name="touchscreen_gesture_action_previous_track">播放上一個音樂曲目</string>
-    <string name="touchscreen_gesture_action_next_track">播放下一個音樂曲目</string>
+    <string name="touchscreen_gesture_action_previous_track">播放上一首音樂曲目</string>
+    <string name="touchscreen_gesture_action_next_track">播放下一首音樂曲目</string>
     <string name="touchscreen_gesture_action_volume_down">降低媒體音量</string>
     <string name="touchscreen_gesture_action_volume_up">提高媒體音量</string>
     <string name="touchscreen_gesture_action_ambient_display">顯示微光螢幕</string>
