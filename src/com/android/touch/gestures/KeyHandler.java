@@ -191,9 +191,6 @@ public class KeyHandler implements DeviceKeyHandler {
         @Override
         public void handleMessage(final Message msg) {
             switch (msg.arg1) {
-                case TouchscreenGestureConstants.ACTION_CAMERA:
-                    launchCamera();
-                    break;
                 case TouchscreenGestureConstants.ACTION_FLASHLIGHT:
                     toggleFlashlight();
                     break;
@@ -228,14 +225,6 @@ public class KeyHandler implements DeviceKeyHandler {
                     break;
             }
         }
-    }
-
-    private void launchCamera() {
-        mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
-        final Intent intent = new Intent(android.content.Intent.ACTION_SCREEN_CAMERA_GESTURE);
-        mContext.sendBroadcastAsUser(intent, UserHandle.CURRENT,
-                Manifest.permission.STATUS_BAR_SERVICE);
-        doHapticFeedback();
     }
 
     private void launchActivity(int action) {
